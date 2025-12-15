@@ -26,5 +26,5 @@ class ProdutoRepositoryBase(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def deletar(self, id_: int) -> None:
+    def deletar(self, id_: int) -> bool:
         raise NotImplementedError
