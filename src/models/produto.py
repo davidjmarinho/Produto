@@ -39,10 +39,3 @@ class Produto:
             raise ValueError("O preço não pode ser negativo.")
         self._preco = valor
 
-p1 = Produto(1, 'Caneta', 110.0)
-
-print(f"\nAntes do desconto: {p1.preco}")
-p1.aplicar_desconto(10.0)
-
-print(p1.nome)
-print(f"\nDepois do desconto: {p1.preco}")
